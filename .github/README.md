@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cloudsearch-domain`](https://www.npmjs.com/package/@aws-sdk/client-cloudsearch-domain/v/3.328.0).
+[`@aws-sdk/client-cloudsearch-domain`](https://www.npmjs.com/package/@aws-sdk/client-cloudsearch-domain/v/3.329.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudsearch-domain@3.328.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudsearch-domain@3.329.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-VKu+4A7dEz/9w5/QSYBBTgB1TTflr5z0tTtcXkBnygaQjAaGn8MiGA9KdrBP1uXE
+sha384-eFSj82tmWwQoLQf1iFQjNl4iCyg1iYVcrvsLCl1qeIdF27JSnKzphdXoGbnRcuj8
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cloudsearch-domain": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudsearch-domain@3.328.0/index.min.mjs"
+            "@aws-sdk/client-cloudsearch-domain": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudsearch-domain@3.329.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudsearch-domain@3.328.0/index.min.mjs": "sha384-VKu+4A7dEz/9w5/QSYBBTgB1TTflr5z0tTtcXkBnygaQjAaGn8MiGA9KdrBP1uXE"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudsearch-domain@3.329.0/index.min.mjs": "sha384-eFSj82tmWwQoLQf1iFQjNl4iCyg1iYVcrvsLCl1qeIdF27JSnKzphdXoGbnRcuj8"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cloudsearch-domain": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudsearch-domain@3.328.0/index.min.mjs"
+                        "@aws-sdk/client-cloudsearch-domain": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudsearch-domain@3.329.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudsearch-domain@3.328.0/index.min.mjs": "sha384-VKu+4A7dEz/9w5/QSYBBTgB1TTflr5z0tTtcXkBnygaQjAaGn8MiGA9KdrBP1uXE"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudsearch-domain@3.329.0/index.min.mjs": "sha384-eFSj82tmWwQoLQf1iFQjNl4iCyg1iYVcrvsLCl1qeIdF27JSnKzphdXoGbnRcuj8"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.328.0`)
+* Always pin to a specific version (`@3.329.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cloudsearch-domain/blob/refs/tags/3.328.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cloudsearch-domain/blob/refs/tags/3.329.0/LICENSE
 ```
 
 ---
